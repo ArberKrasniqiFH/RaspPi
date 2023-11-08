@@ -1,4 +1,2 @@
-import winsound
-
-filename = 'myfile.wav'
-winsound.PlaySound(filename, winsound.SND_FILENAME)
+from playsound import playsound
+playsound('metalpipe.mp3')
